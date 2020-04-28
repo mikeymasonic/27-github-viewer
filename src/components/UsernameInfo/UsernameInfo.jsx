@@ -8,7 +8,7 @@ const UsernameInfo = ({ avatar_url, login, followers, following, html_url }) => 
       <p>{login}</p>
       <p>{followers}</p>
       <p>{following}</p>
-      <p><a href={html_url}></a></p>
+      <p><a href={html_url} target="_blank" rel="noopener noreferrer">link</a></p>
     </figcaption>
   </figure>
 );
