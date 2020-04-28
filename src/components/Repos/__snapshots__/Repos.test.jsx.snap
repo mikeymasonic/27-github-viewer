@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repos component renders Repos 1`] = `
+<ul>
+  <Repo
+    html_url="https://github.com/mikeymasonic/capTouch-Fader-Joystick-Midi-Device"
+    id={235044203}
+    key="235044203"
+    name="capTouch-Fader-Joystick-Midi-Device"
+  />
+  <Repo
+    html_url="https://github.com/mikeymasonic/arcade-button-midi-controller"
+    id={247767043}
+    key="247767043"
+    name="arcade-button-midi-controller"
+  />
+</ul>
+`;
