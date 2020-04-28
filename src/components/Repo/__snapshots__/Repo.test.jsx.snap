@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repo component renders Repo 1`] = `
+<ul>
+  <li>
+    loopr
+  </li>
+  <li>
+    https://github.com/mikeymasonic/loopr
+  </li>
+</ul>
+`;

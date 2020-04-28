@@ -19,7 +19,11 @@ exports[`UsernameInfo component renders UsernameInfo 1`] = `
     <p>
       <a
         href="https://github.com/mikeymasonic"
-      />
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        link
+      </a>
     </p>
   </figcaption>
 </figure>
