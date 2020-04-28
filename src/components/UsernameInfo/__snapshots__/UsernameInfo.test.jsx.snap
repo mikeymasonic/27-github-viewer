@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsernameInfo component renders UsernameInfo 1`] = `
+<figure>
+  <img
+    alt="mikeymasonic"
+    src="https://avatars2.githubusercontent.com/u/35716186?v=4"
+  />
+  <figcaption>
+    <p>
+      mikeymasonic
+    </p>
+    <p>
+      5
+    </p>
+    <p>
+      4
+    </p>
+    <p>
+      <a
+        href="https://github.com/mikeymasonic"
+      />
+    </p>
+  </figcaption>
+</figure>
+`;
