@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsernameEnter component renders UsernameEnter 1`] = `
+<Fragment>
+  <UsernameInput
+    onUsernameChange={[Function]}
+    onUsernameSubmit={[Function]}
+    username=""
+  />
+</Fragment>
+`;
