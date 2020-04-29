@@ -2,11 +2,17 @@
 
 exports[`Repo component renders Repo 1`] = `
 <ul>
-  <li>
+  <h3>
     loopr
-  </li>
+  </h3>
   <li>
-    https://github.com/mikeymasonic/loopr
+    <a
+      href="https://github.com/mikeymasonic/loopr"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      link
+    </a>
   </li>
 </ul>
 `;

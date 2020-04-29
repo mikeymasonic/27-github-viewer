@@ -32,18 +32,6 @@ export default class UsernameEnter extends Component {
 
   render() {
     let userRequested = '';
-    // const repos = [
-    //   {
-    //     id: 235044203,
-    //     name: 'capTouch-Fader-Joystick-Midi-Device',
-    //     html_url: 'https://github.com/mikeymasonic/capTouch-Fader-Joystick-Midi-Device'
-    //   },
-    //   {
-    //     id: 247767043,
-    //     name: 'arcade-button-midi-controller',
-    //     html_url: 'https://github.com/mikeymasonic/arcade-button-midi-controller'
-    //   }
-    // ];
 
     if(this.state.search) {
       userRequested = 

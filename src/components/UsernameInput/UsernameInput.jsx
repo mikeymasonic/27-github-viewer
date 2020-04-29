@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 
 const UsernameInput = ({ username, onUsernameChange, onUsernameSubmit }) => (
   <>
-    <input type="text" name="username" value={username} onChange={onUsernameChange} />
-    <input type="button" name="search" value="Search" onChange={onUsernameSubmit} />
+    <h1>GitHub User Viewer</h1>
+    <input type="text" name="username" placeholder="GitHub Username" value={username} onChange={onUsernameChange} />
+    <input type="submit" name="search" value="Search" onClick={onUsernameSubmit} />
   </>
 );
 

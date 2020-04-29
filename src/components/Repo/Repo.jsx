@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const Repo = ({ name, html_url }) => (
   <ul>
-    <li>{name}</li>
-    <li>{html_url}</li>
+    <h3>{name}</h3>
+    <li><a href={html_url} target="_blank" rel="noopener noreferrer">link</a></li>
   </ul>
 );
 

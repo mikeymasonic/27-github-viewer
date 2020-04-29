@@ -2,16 +2,20 @@
 
 exports[`UsernameInput component renders UsernameInput 1`] = `
 <Fragment>
+  <h1>
+    GitHub User Viewer
+  </h1>
   <input
     name="username"
     onChange={[Function]}
+    placeholder="GitHub Username"
     type="text"
     value="mikeymasonic"
   />
   <input
     name="search"
-    onChange={[Function]}
-    type="button"
+    onClick={[Function]}
+    type="submit"
     value="Search"
   />
 </Fragment>

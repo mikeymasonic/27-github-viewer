@@ -5,10 +5,10 @@ const UsernameInfo = ({ avatar_url, login, followers, following, html_url }) => 
   <figure>
     <img src={avatar_url} alt={login} />
     <figcaption>
-      <p>{login}</p>
-      <p>{followers}</p>
-      <p>{following}</p>
-      <p><a href={html_url} target="_blank" rel="noopener noreferrer">link</a></p>
+      <h4>username:</h4> {login}
+      <h4>followers:</h4> {followers}
+      <h4>following:</h4> {following}
+      <p><a href={html_url} target="_blank" rel="noopener noreferrer">github profile</a></p>
     </figcaption>
   </figure>
 );
