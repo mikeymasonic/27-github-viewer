@@ -25,7 +25,7 @@ export default class UsernameEnter extends Component {
 
   handleUsernameSubmit = () => {
     getUser(this.state.username)
-      .then(user => this.setState({ user, search: true }));
+      .then(user => this.setState({ user }));
     getRepos(this.state.username)
       .then(repos => this.setState({ repos, search: true }));
   };

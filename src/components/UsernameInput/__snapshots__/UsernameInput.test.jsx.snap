@@ -4,11 +4,13 @@ exports[`UsernameInput component renders UsernameInput 1`] = `
 <Fragment>
   <input
     name="username"
+    onChange={[Function]}
     type="text"
     value="mikeymasonic"
   />
   <input
     name="search"
+    onChange={[Function]}
     type="button"
     value="Search"
   />

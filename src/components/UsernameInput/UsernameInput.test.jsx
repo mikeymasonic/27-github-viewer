@@ -6,8 +6,8 @@ describe('UsernameInput component', () => {
   it('renders UsernameInput', () => {
     const wrapper = shallow(<UsernameInput 
       username="mikeymasonic"
-      onUserChange={() => {}}
-      onUserSubmit={() => {}}/>);
+      onUsernameChange={() => {}}
+      onUsernameSubmit={() => {}}/>);
     expect(wrapper).toMatchSnapshot();
   });
 });
